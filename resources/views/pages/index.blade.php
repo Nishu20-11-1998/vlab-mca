@@ -14,6 +14,7 @@
     <h2 align="center">Welcome To Virtual Lab </h2>
     <br>
     <h3 align="center">About Us</h3>
+    <p>Concept of Virtual labs are to simulate learning environments that allow students to complete laboratory experiments online and explore concepts and theories without stepping into a physical science lab.</p>
     <b>Aim :</b><br><br><br>
     <b>Objective:</b>
     <br>
