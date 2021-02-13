@@ -99,8 +99,8 @@
                 <div class="card-body">
                     <b>{{ $assignment->assignment_name}}</b>
                     <br>
-                    <div class="container">
-                    <pre>{{ $assignment->answer}}</pre></div>
+                    <div class="container" >
+                    <pre style="margin: 20px;padding:10px;border: 1px solid black;">{{ $assignment->answer}}</pre></div>
                 </div>
             </div>
             <hr>
