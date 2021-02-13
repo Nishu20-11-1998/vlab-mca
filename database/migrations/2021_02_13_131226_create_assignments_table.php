@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Assignment extends Migration
+class CreateAssignmentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class Assignment extends Migration
      */
     public function up()
     {
-        Schema::create('assignment', function (Blueprint $table) {
+        Schema::create('assignments', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->longText('student_name',"MAX");
             $table->longText('student_details',"MAX");
@@ -32,6 +32,6 @@ class Assignment extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('assignments');
     }
 }
