@@ -1,18 +1,17 @@
-@extends('layouts.app')
 
-@section('title')
-<title>MP Neuron</title>
-@endsection
 
-@section('content')
+<?php $__env->startSection('title'); ?>
+<title>RND Template</title>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('content'); ?>
 
 <div class="main" style="padding-right: 10%;">
     <br>
 
     <div class="container" style="min-height: 700px;">
 
-    <h2>
-        McCulloch-Pitts Neuron </h2>
+    <h2>Welcome</h2>
     <br>
     <!-- Nav tabs -->
     <ul class="nav nav-tabs nav-justified">
@@ -48,31 +47,37 @@
         </div>
         <div id="menu1" class="container tab-pane fade"><br>
             <h3 align="center">Experiments</h3>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h2 class="mb-0">
-                            <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne">1. MP_Neuron </button>
-                        </h2>
-                    </div>
-                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="row">
+                <a href="/Prolog"><div class="col-md-4">
+                    <div class="card" style="width:18rem;height:25rem;margin:20px 0 24px 0">
+                        <img class="card-img-top" src="http://www.gprolog.org/gprolog.png" alt="image" style="width:100%;height:18rem">
                         <div class="card-body">
-                            <p>MP_Neuron 1</p>
+                        <h4 class="card-title">Prolog</h4>
+                        <p class="card-text"> Prolog</p>
+
                         </div>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h2 class="mb-0">
-                            <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo">2. MP_Neuron </button>
-                        </h2>
-                    </div>
-                    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                </div></a><a  href="/MP_Neuron">
+                <div class="col-md-4">
+                    <div class="card" style="width:18rem;height:25rem;margin:20px 0 24px 0">
+                        <img class="card-img-top" src="https://miro.medium.com/max/3840/1*YdhljPn5q1KNIN8b8Li2sA.jpeg" alt="image" style="width:100%;height:18rem">
                         <div class="card-body">
-                            <p>MP_Neuron 2</p>
+                        <h4 class="card-title">MP Neuron</h4>
+                        <p class="card-text">McCulloch-Pitts Neuron</p>
+
                         </div>
                     </div>
-                </div>
+                </div></a><a  href="#">
+                <div class="col-md-4">
+                    <div class="card" style="width:18rem;height:25rem;margin:20px 0 24px 0">
+                        <img class="card-img-top" src="<?php echo e(asset('img/SPIT_logo.png')); ?>" alt="image" style="width:100%;height:18rem">
+                        <div class="card-body">
+                        <h4 class="card-title">Practical 3</h4>
+                        <p class="card-text"> Practical 3</p>
+
+                        </div>
+                    </div>
+                </div></a>
             </div>
         </div>
         <div id="menu2" class="container tab-pane fade"><br>
@@ -98,6 +103,8 @@
       });
     });
     </script>
-@endsection
+<?php $__env->stopSection(); ?>
 
 
+
+<?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\nisar\OneDrive\Documents\GitHub\vlab-mca\resources\views/pages/index.blade.php ENDPATH**/ ?>
