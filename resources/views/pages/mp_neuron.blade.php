@@ -47,6 +47,13 @@
             <p>McCulloch & Pitts (1943) are generally recognised as the designers of the first neural network. Many of their ideas still used today (e.g. many simple units combine to give increased computational power and the idea of a threshold). Hebb (1949) developed the first learning rule (on the premise that if two neurons were active at the same time the strength between them should be increased)</p><br>
             <b>Aim:</b><br>
             <b>Objective:</b>
+            <b>How does a neural network learn ?</b><br>
+            <ul>
+            <li>when an input is given to the neural network, it returns an output.</li>
+            <li>During the learning phase, every inputs come with its label, explaining what output the neural network should have guessed. If the choice is the good one, actual parameters are kept and the next input is given. However, if the obtained output doesn’t match the label, weights are changed. Those are the only variables that can be changed during the learning phase.</li>
+            <li>To determine which weight is better to modify, a particular process, called “backpropagation” is done.</li>
+            <li>The “learning rate”. The name says it all, this new value determines on what speed the neural network will learn, or more specifically how it will modify a weight, little by little or by bigger steps. 1 is generally a good value for that parameter.</li></ul>
+            <br>
         </div>
         <div id="menu1" class="container tab-pane fade"><br>
             <h3 align="center">Simulation</h3>
