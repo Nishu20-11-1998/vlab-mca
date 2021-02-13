@@ -90,24 +90,22 @@
         </div>
         <div id="menu2" class="container tab-pane fade"><br>
             <h3>Assignment</h3>
-            <table id="datatable-responsive" class="table table-striped table-bordered dt-responsive nowrap" cellspacing="0" width="100%">
-                      <thead>
-                        <tr>
-                          <th>Id</th>
-                          <th>student_name</th>
-                          <th>topic_name</th>
-                        </tr>
-                      </thead>
-                      <tbody>
                           @foreach($assignments as $assignment)
-                        <tr>
-                          <td>{{ $assignment->id}}</td>
-                          <td>{{ $assignment->student_name}}</td>
-                          <td>{{ $assignment->topic_name}}</td>
-                          </tr>
-                        @endforeach
-                      </tbody>
-                    </table>
+            <div class="card">
+                <div class="card-header">
+                    <b>{{ $assignment->student_name}}</b>
+                    <span>{{ $assignment->student_details}}</span>
+                </div>
+                <div class="card-body">
+                    <b>{{ $assignment->assignment_name}}</b>
+                    <br>
+                    <div class="container">
+                    <pre>{{ $assignment->answer}}</pre></div>
+                </div>
+            </div>
+            <hr>
+            @endforeach
+            
         </div>
         <div id="menu3" class="container tab-pane fade"><br>
             <h3>People</h3>
