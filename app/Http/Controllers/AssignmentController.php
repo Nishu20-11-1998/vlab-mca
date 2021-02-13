@@ -4,9 +4,12 @@ namespace App\Http\Controllers;
 
 use App\Assignment;
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\DB;
+use Illuminate\Foundation\Auth\AuthenticatesUsers;
+use Auth;
 class AssignmentController extends Controller
 {
+    
     /**
      * Display a listing of the resource.
      *

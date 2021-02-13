@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Assignment;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class PagesController extends Controller
 {
@@ -12,10 +14,12 @@ class PagesController extends Controller
     }
     public function prolog()
     {
-        return view('pages.prolog');
+        $assignments =DB::table('assignments')->where('active','1')->where('topic_name','Prolog')->get();
+        return view('pages.prolog')->with('assignments',$assignments);
     }
     public function mp_neuron()
     {
-        return view('pages.mp_neuron');
+        $assignments =DB::table('assignments')->where('active','1')->where('topic_name','MP Neuron')->get();
+        return view('pages.mp_neuron')->with('assignments',$assignments);
     }
 }
