@@ -46,7 +46,7 @@
             <br>
             <p>McCulloch & Pitts (1943) are generally recognised as the designers of the first neural network. Many of their ideas still used today (e.g. many simple units combine to give increased computational power and the idea of a threshold). Hebb (1949) developed the first learning rule (on the premise that if two neurons were active at the same time the strength between them should be increased)</p><br>
             <b>Aim:</b><br>
-            <b>Objective:</b>
+            <b>Objective:</b><br>
             <b>How does a neural network learn ?</b><br>
             <ul>
             <li>when an input is given to the neural network, it returns an output.</li>
