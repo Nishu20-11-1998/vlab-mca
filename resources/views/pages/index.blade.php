@@ -14,7 +14,7 @@
     <h2 align="center">Welcome To Virtual Lab </h2>
     <br>
     <h3 align="center">About Us</h3>
-    <b>Aim:</b><br><br><br>
+    <b>Aim :</b><br><br><br>
     <b>Objective:</b>
     <br>
     <br>
