@@ -15,11 +15,17 @@
     <br>
     <h3 align="center">About Us</h3>
     <p>Concept of Virtual labs are to simulate learning environments that allow students to complete laboratory experiments online and explore concepts and theories without stepping into a physical science lab.</p>
-    <b>Aim :</b><br><br><br>
-    <b>Objective:</b>
+    <b>Aim :</b><br>
+    <ul>
+    <li>To understand different concept of Computational Intelligence</li>
+    <li>To simulate the application based on the computational Intelligence</li>
+    </ul><br>
+    <b>Objective :</b>
     <br>
-    <br>
-    <br>
+    <ul>
+    <li>To introduce students about the latest Computational Intelligence Tools and Techniques/li>
+    <li>To develop rigorous applications in the AI domain.</li>
+    </ul><br>
     <hr>
         <h3 align="center">Experiments List</h3>
         <div class="container-fluid row" style="padding-left:10%">
