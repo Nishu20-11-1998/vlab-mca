@@ -80,7 +80,7 @@
                     </div>
                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                         <div class="card-body">
-                            <p>8 Puzzle Problem</p>
+                            <div class="panel-body" data-pym-src="https://www.jdoodle.com/embed/v0/2ZaP"></div>
                         </div>
                     </div>
                 </div>
