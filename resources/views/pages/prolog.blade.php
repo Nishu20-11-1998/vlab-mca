@@ -44,6 +44,41 @@
             <h3>Introduction</h3>
             <b>Aim:</b><br>
             <b>Objective:</b>
+            <ul>
+            <li>Familiarity with the Prolog programming environment.</li>
+            <li>Tutorial introduction to Prolog programming.</li>
+            <li>Understanding the under the hood workings of Prolog interpreter.</li>
+            <li>Developing a procedural code which imitates the declarative style of Prolog programming by focusing on matching algorithm followed by Prolog interpreter.</li>
+            <li>Understanding the concept of arithmetic expressions in Prolog.</li>
+            <li>Writing illustrative examples and solving exercises related to various user-defined operators in Prolog.</li>
+            </ul><br>
+        </div>
+        <div id="theory" class="container tab-pane active"><br>
+            <h4>Prolog : Programming in logic</h4>
+            <b>Main advantages</b><br>
+            <ul>
+            <li>Ease of representing knowledge</li>
+            <li>Natural support of non-determinism</li>
+            <li>Natural support of pattern-matching</li>
+            <li>Natural support of meta-programming</li>
+            <li>Meaning of programs is independent of how they are executed</li>
+            <li>Simple connection between programs and computed answers and specifications</li>
+            <li>No need to distinguish programs from databases</li>
+            </ul><br>
+
+            <b>Notes :</b><br>
+            <ul>
+            <li>Prolog programs consist of clauses, each terminated with a full-stop (.). </li>
+            <li>A relation can be defined in form of n-tuple.</li>
+            <li>Arguments to the relation can be of two types – atoms and variables</li>
+            <li>Clauses are of three types – facts, rules and questions. Facts declare statements that are unconditionally true, rules are statements that are true based on certain conditions and through questions, user can ask what is true and what is false.</li>
+            <li>Questions are given as goals to be satisfied whose answers are “yes” or “no”.</li>
+            <li>Prolog clauses consist of head and body, body consist of list of goals separated by comma (,) where a comma is a conjunction.</li>
+            <li>Facts are prolog clauses with empty body.</li>
+            <li>Predecessor relation (formed using recursive rule) is composed of two rules. First rule determines direct relation while second rule determines indirect relation.</li>
+            <li>Prolog programs explains declarative and procedural meanings, declarative decides the output of the program while procedural decides how the output is obtained.</li>
+            <li>Emphasis upon the declarative style of programming.</li>
+            </ul><br>
         </div>
         <div id="menu1" class="container tab-pane fade"><br>
             <h3 align="center">Simulation</h3>
