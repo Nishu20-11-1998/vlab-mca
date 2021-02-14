@@ -17,6 +17,10 @@ class PagesController extends Controller
         $assignments =DB::table('assignments')->where('active','1')->where('topic_name','Prolog')->get();
         return view('pages.prolog')->with('assignments',$assignments);
     }
+    public function mp_neuron_xor()
+    {
+        return view('pages.mp_neuron.xor');
+    }
     public function mp_neuron()
     {
         $assignments =DB::table('assignments')->where('active','1')->where('topic_name','MP Neuron')->get();

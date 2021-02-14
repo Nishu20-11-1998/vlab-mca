@@ -109,21 +109,27 @@
                     </div>
                     <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                         <div class="card-body"><div class="container-fluid row">
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <a href="#">
                                 <div class="card"> <div class="card-body" align="center">AND GATE</div>
                                 </div></a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-3">
                                 <a href="#">
                                 <div class="card">
                                     <div class="card-body" align="center">OR GATE</div>
                                 </div></a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="#">
+                            <div class="col-md-3">
+                                <a href="/MP_Neuron/Xor-Gate">
                                 <div class="card">
                                     <div class="card-body" align="center">XOR GATE</div>
+                                </div></a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                <div class="card">
+                                    <div class="card-body" align="center">NAND GATE</div>
                                 </div></a>
                             </div>
                         </div>
