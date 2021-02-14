@@ -146,6 +146,21 @@
         </div>
         <div id="menu2" class="container tab-pane fade"><br>
             <h3>Assignment</h3>
+            @foreach($assignments as $assignment)
+            <div class="card">
+                <div class="card-header">
+                    <b>{{ $assignment->student_name}}</b>
+                    <span>{{ $assignment->student_details}}</span>
+                </div>
+                <div class="card-body">
+                    <b>{{ $assignment->assignment_name}}</b>
+                    <br>
+                    <div class="container" >
+                    <pre style="margin: 20px;padding:10px;border: 1px solid black;">{{ $assignment->answer}}</pre></div>
+                </div>
+            </div>
+            <hr>
+            @endforeach
         </div>
         <div id="menu3" class="container tab-pane fade"><br>
             <h3>People</h3>

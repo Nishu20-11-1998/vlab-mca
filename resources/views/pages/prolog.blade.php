@@ -52,8 +52,8 @@
             <li>Understanding the concept of arithmetic expressions in Prolog.</li>
             <li>Writing illustrative examples and solving exercises related to various user-defined operators in Prolog.</li>
             </ul><br>
-        </div>
-        <div id="theory" class="container tab-pane active"><br>
+        <!-- </div>
+        <div id="theory" class="container tab-pane active"><br> -->
             <h4>Prolog : Programming in logic</h4>
             <b>Main advantages</b><br>
             <ul>
