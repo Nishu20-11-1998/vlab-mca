@@ -7,6 +7,7 @@ Route::get('/Prolog', 'PagesController@prolog');
 
 Route::get('/MP_Neuron', 'PagesController@mp_neuron');
 Route::get('/MP_Neuron/Xor-Gate', 'PagesController@mp_neuron_xor');
+Route::get('/MP_Neuron/Nand-Gate', 'PagesController@mp_neuron_nand');
 
 
 

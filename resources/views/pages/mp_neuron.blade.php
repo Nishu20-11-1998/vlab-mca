@@ -127,7 +127,7 @@
                                 </div></a>
                             </div>
                             <div class="col-md-3">
-                                <a href="#">
+                                <a href="/MP_Neuron/Nand-Gate">
                                 <div class="card">
                                     <div class="card-body" align="center">NAND GATE</div>
                                 </div></a>
